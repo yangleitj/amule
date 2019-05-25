@@ -1,16 +1,14 @@
-`echo -n 你的密码 | md5sum | cut -d ' ' -f 1` #输出你的密码md5sum编码,记录下来备用。
+`echo -n 你的密码 | md5sum | cut -d ' ' -f 1` #默认密码 btsynchina
 
 `sudo -i` #使用root身份
 
 `apt-get install amule-common amule-daemon git -y` #安装amule
 
-`git clone https://github.com/yangleitj/amule.git /root/.aMule`
-
-
+`git clone https://github.com/yangleitj/amule.git /root/.aMule` #使用我的数据库和配置文件
 
 `amuled`
 
-ctrl+c #终止命令
+`ctrl+c` #终止命令
 
 `amuleweb -w`
 
