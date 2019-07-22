@@ -90,4 +90,4 @@
 
 >jpillora/cloud-torrent --port 7777
 
-#访问 http://ip:9999 到达 CloudTorrent
+#访问 http://ip:7777 到达 CloudTorrent
