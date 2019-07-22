@@ -14,7 +14,7 @@
 
 `nohup amuled` #后台运行
 
->访问 http://ip:9999
+>访问 http://ip:9999 到达 aMule
 
 
 
@@ -75,3 +75,19 @@
 >AdminPassword= #密码的md5编码，开头生成的
 
 `esc+:wq` #保存退出
+
+#通过CloudTorrent从VPS取回下载文件
+
+`wget -qO- https://get.docker.com/ | sh` #安装Docker
+
+>docker run -d --name CloudTorrent \ #安装CloudTorrent
+
+>-p 7777:7777 \
+
+>-v /root/aMule:/downloads \
+
+>--restart always \
+
+>jpillora/cloud-torrent --port 7777
+
+#访问 http://ip:9999 到达 CloudTorrent
