@@ -1,4 +1,4 @@
-`echo -n 你的密码 | md5sum | cut -d ' ' -f 1` #默认密码 btsynchina
+`echo -n 你的密码 | md5sum | cut -d ' ' -f 1` #默认密码 btsynchina.com
 
 `sudo -i` #使用root身份
 
@@ -16,6 +16,9 @@
 
 >访问 http://ip:9999
 
+
+
+#如果你想手动修改配置文件
 
 `cd /root/aMule`
 
