@@ -4,7 +4,7 @@
 
 `apt-get install amule-common amule-daemon git -y` #安装amule
 
-`git clone https://github.com/yangleitj/amule.git /root/aMule` #使用我的数据库和配置文件
+`git clone https://github.com/yangleitj/amule.git /root/.aMule` #使用我的数据库和配置文件
 
 `amuled`
 
